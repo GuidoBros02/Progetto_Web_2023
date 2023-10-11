@@ -1,0 +1,73 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-custom 
+{
+  background-color: #8e8e8e;
+  color: #000000;
+}
+
+.navbar-brand img {
+  width: 230px;
+  height: 60px;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list-group-item {
+  background-color: #d9d9d9;
+  border-color: #dee2e6;
+}
+
+.img-thumbnail {
+  max-width: 100px;
+  height: auto;
+}
+
+.btn-custom-valuta
+{
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-color: #ed2704;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0)
+}
+
+.btn-custom-valuta:hover
+{
+  border-color: #ed2704;
+  background-color: #ed2704;
+  color: rgb(255, 253, 253);
+}
+
+.btn-custom-carrello 
+{
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-color: #149449;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0)
+}
+
+.btn-custom-carrello:hover
+{
+  border-color: #149449;
+  background-color: #149449;
+  color: rgb(255, 253, 253);
+}

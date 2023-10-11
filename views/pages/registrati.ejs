@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <link rel="icon" type="Cine-Go" href="/img/icona.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/registrati.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <title>Cine-Go: Registrazione</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/homepage"><img src="/img/logo.png" weight="10" alt="Logo"></a>
+            <div class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 24px;">Area Registrazione </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <form class="row g-3 mx-5" method="POST" action="/registrati">
+            <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Inserisci il tuo nome">
+                <div id="nome-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCognome" class="form-label">Cognome</label>
+                <input type="text" class="form-control" id="inputCognome" name="cognome" placeholder="Inserisci il tuo cognome">
+                <div id="cognome-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Inserisci la tua email">
+                <div id="email-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword" name="password1" placeholder="Inserisci una password">
+                <div id="password-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputRipetiPassword" class="form-label">Ripeti Password</label>
+                <input type="password" class="form-control" id="inputRipetiPassword" name="password2" placeholder="Ripeti la password">
+                <div id="ripeti-password-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCitta" class="form-label">Città</label>
+                <input type="text" class="form-control" id="inputCitta" name="citta" placeholder="Inserisci la tua città">
+                <div id="citta-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputIndirizzo" class="form-label">Indirizzo</label>
+                <input type="text" class="form-control" id="inputIndirizzo" name="indirizzo" placeholder="Inserisci il tuo indirizzo">
+                <div id="stato-validita" class="form-text"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputData" class="form-label">Data di nascita</label>
+                    <input type="date" class="form-control" id="inputData" name="data">
+                </div>
+                <div id="data-validita" class="form-text"></div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-outline-primary btn-custom w-100" id="registrati-btn">Registrati</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+ul
+{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon
+{
+  width: 80px;
+  height: 80px;
+}
+
+.select-filtro
+{
+  color: black;
+}
+
+.btn-filtro
+{
+  background-color: #bfbfbf;
+}
+
+.body-card
+{
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.navbar 
+{
+  justify-content: center;
+}
+
+.navbar-custom
+{
+  background-color: #bfbfbf;
+}
+
+.navbar-brand img
+{
+  width: 230px;
+  height: 60px;
+}
+
+.sidebar-wrapper
+{
+  height: auto;
+  background-color:  #8a8a8a;
+  color: #ffffff;
+}
+
+.custom-search 
+{
+  max-width: 570px;
+  margin-left: 10px;
+}
+
+.btn-custom-carrello
+{
+  border-color: #ed2704;
+  background-color:  #ffffff;
+  color: #000000;
+  height: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+.btn-custom-carrello:hover
+{
+  border-color: #ed2704;
+  background-color: #ed2704;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  margin: 0
+}
+
+.btn-custom-elimina
+{
+  border-color: #000000;
+  background-color:  #ffffff;
+  color: #000000;
+  height: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+.btn-custom-elimina:hover
+{
+  border-color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  margin: 0
+}
+
+.carrello-icon,
+.preferiti-icon 
+.elimina-icon{
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn-custom {
+  border-color: #ed2704;
+  background-color:  #ffffff;
+  color: #000000;
+}
+
+.btn-custom:hover
+{
+  border-color: #ed2704;
+  background-color: #ed2704;
+  color: #ffffff;
+}
+
+.btn-custom-preferiti
+{
+  border-color: #ffc106;
+  background-color:#ffffff;
+  color: #000000;
+  width: 100%;
+  height: 35px;
+  margin: 0
+}
+
+.btn-custom-preferiti:hover
+{
+  border-color: #ffc106;
+  background-color: #ffc106;
+  color: #000000;
+  width: 100%;
+  margin: 0
+}
+
+
+.card 
+{
+  display: flex;
+  width: 100%;
+  max-width: 300px; /* Imposta la larghezza massima della card */
+  margin: 10px;
+  background-color: #d1d1d1;
+  border-left: 2px solid #000; /* Bordo a sinistra */
+  border-right: 2px solid #000; /* Bordo a destra */
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;;
+}
+
+.card-body p 
+{
+  margin-bottom: 5px;
+  flex-grow: 1;
+}
+
+.card-body a
+{
+  margin-bottom: 5px;
+  flex-grow: 1;
+}
+
+.Copertina {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-item:hover {
+  background-color: #ed2704; /* Cambia il colore di sfondo a tuo piacimento */
+  color: #ffffff; /* Cambia il colore del testo a tuo piacimento */
+}
+
+@media screen and (min-width: 576px) {
+  .card {
+    max-width: 400px; /* Imposta una larghezza massima diversa per schermi più grandi */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 500px; /* Imposta una larghezza massima diversa per schermi ancora più grandi */
+  }
+}
+
+@media screen and (max-width: 480px) 
+{
+  .card 
+  {
+    max-width: 100%; /* Imposta larghezza al 100% per dispositivi mobili */
+  }
+}
+
